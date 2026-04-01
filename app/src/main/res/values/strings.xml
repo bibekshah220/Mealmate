@@ -1,0 +1,136 @@
+<resources>
+    <string name="app_name">MealMate</string>
+    
+    <!-- Auth Strings -->
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="remember_me">Remember me</string>
+    <string name="register_prompt">Don\'t have an account? Register here</string>
+    <string name="fields_required">Please fill all fields</string>
+    <string name="auth_failed">Authentication failed: %1$s</string>
+    <string name="unknown_error">Unknown error</string>
+    <string name="forgot_password">Forgot password? Reset here</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="reset_password_instruction">Enter your email to receive a password reset link</string>
+    <string name="send_reset_link">Send Reset Link</string>
+    <string name="reset_email_sent">Password reset email sent!</string>
+    <string name="reset_email_failed">Failed to send reset email</string>
+    <string name="email_required">Email is required</string>
+    <string name="valid_email_required">Please enter a valid email</string>
+    
+    <!-- Navigation Drawer -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    
+    <!-- Menu Items -->
+    <string name="menu_home">Home</string>
+    <string name="menu_recipes">Recipes</string>
+    <string name="menu_meal_plan">Meal Plan</string>
+    <string name="menu_grocery_list">Grocery List</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_logout">Logout</string>
+    
+    <!-- Home Dashboard -->
+    <string name="welcome">Welcome to MealMate!</string>
+    <string name="welcome_user">Welcome, %1$s!</string>
+    <string name="todays_meals">Today\'s Meals</string>
+    <string name="no_meal_planned">No meal planned</string>
+    <string name="stats_and_analytics">Stats &amp; Analytics</string>
+    <string name="recipes_count">Recipes</string>
+    <string name="planned_meals_count">Planned Meals</string>
+    <string name="grocery_items_count">Grocery Items</string>
+    <string name="grocery_cost">Estimated Cost</string>
+    <string name="quick_actions">Quick Actions</string>
+    <string name="plan_today">Plan Today\'s Meals</string>
+    <string name="recent_activity">Recent Activity</string>
+    <string name="no_recent_activity">No recent activity</string>
+    
+    <!-- Recipe Strings -->
+    <string name="recipes">Recipes</string>
+    <string name="add_recipe">Add Recipe</string>
+    <string name="edit_recipe">Edit Recipe</string>
+    <string name="delete_recipe">Delete Recipe</string>
+    <string name="recipe_name">Recipe Name</string>
+    <string name="recipe_image">Recipe Image</string>
+    <string name="recipe_image_url">Image URL (optional)</string>
+    <string name="recipe_ingredients">Ingredients</string>
+    <string name="recipe_steps">Steps</string>
+    <string name="add_ingredient">Add Ingredient</string>
+    <string name="add_step">Add Step</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="confirm_delete">Are you sure you want to delete this recipe?</string>
+    <string name="recipe_saved">Recipe saved successfully</string>
+    <string name="recipe_deleted">Recipe deleted successfully</string>
+    <string name="error_saving">Error saving recipe</string>
+    <string name="error_deleting">Error deleting recipe</string>
+    <string name="no_recipes">No recipes found</string>
+    <string name="no_ingredients">No ingredients</string>
+    <string name="loading_recipes">Loading recipes…</string>
+    <string name="enter_recipe_name">Please enter a recipe name</string>
+    <string name="enter_at_least_one_ingredient">Please enter at least one ingredient</string>
+    <string name="enter_at_least_one_step">Please enter at least one step</string>
+    
+    <!-- Meal Plan Strings -->
+    <string name="meal_plan">Meal Plan</string>
+    <string name="add_to_meal_plan">Add to Meal Plan</string>
+    <string name="edit_meal_plan">Edit Meal Plan</string>
+    <string name="breakfast">Breakfast</string>
+    <string name="lunch">Lunch</string>
+    <string name="dinner">Dinner</string>
+    <string name="snacks">Snacks</string>
+    <string name="add_meal">Add Meal</string>
+    <string name="remove_meal">Remove Meal</string>
+    <string name="select_recipe">Select Recipe</string>
+    <string name="select_date">Select Date</string>
+    <string name="select_meal_category">Select Meal Category</string>
+    <string name="meal_added">Meal added to plan</string>
+    <string name="meal_removed">Meal removed from plan</string>
+    <string name="error_adding_meal">Error adding meal</string>
+    <string name="error_removing_meal">Error removing meal</string>
+    <string name="no_meals_planned">No meals planned for this day</string>
+    <string name="today">Today</string>
+    
+    <!-- Grocery List Strings -->
+    <string name="grocery_list">Grocery List</string>
+    <string name="add_grocery_item">Add to Grocery List</string>
+    <string name="edit_grocery_item">Edit Grocery Item</string>
+    <string name="delete_grocery_item">Delete Grocery Item</string>
+    <string name="confirm_delete_grocery">Are you sure you want to delete this item?</string>
+    <string name="grocery_item_added">Item added to grocery list</string>
+    <string name="grocery_item_updated">Item updated</string>
+    <string name="grocery_item_deleted">Item deleted</string>
+    <string name="grocery_item_purchased">Item marked as purchased</string>
+    <string name="grocery_item_unpurchased">Item marked as not purchased</string>
+    <string name="error_adding_grocery">Error adding item</string>
+    <string name="error_updating_grocery">Error updating item</string>
+    <string name="error_deleting_grocery">Error deleting item</string>
+    <string name="no_grocery_items">No items in your grocery list</string>
+    <string name="purchased_items">Purchased Items</string>
+    <string name="to_buy">Items to Buy</string>
+    <string name="add">Add</string>
+    <string name="update">Update</string>
+    <string name="total_cost">Total Cost: $%.2f</string>
+    <string name="add_from_recipes">Add from Recipes</string>
+    <string name="add_manually">Add Manually</string>
+    <string name="select_recipes_for_grocery">Select Recipes</string>
+    <string name="share_grocery_list">Share</string>
+    <string name="send_grocery_sms">Send grocery list via SMS</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="message_preview">Message Preview</string>
+    <string name="send">Send</string>
+    <string name="enter_phone_number">Please enter a phone number</string>
+    <string name="sms_error">Error sending SMS</string>
+    <string name="copy_to_clipboard">Copy</string>
+    <string name="copied_to_clipboard">Copied to clipboard</string>
+    
+    <!-- Added Item Notification -->
+    <string name="added_to_grocery_list">Added %1$s to grocery list</string>
+    <string name="view">View</string>
+    <string name="activity_added_grocery_item">Added %1$s to grocery list</string>
+    <string name="activity_added_grocery_item_desc">Added %1$.1f %2$s</string>
+    <string name="manually_added_items">Manually Added Items</string>
+    <string name="no_manual_items">No manually added items</string>
+</resources>

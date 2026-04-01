@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#4CAF50</color>
+    <color name="colorPrimaryDark">#388E3C</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorAccentDark">#F50057</color>
+    <color name="highlight_color">#33FF4081</color>
+    <color name="main_color">#f3bae0</color>
+    <!-- Swipe action colors -->
+    <color name="swipe_purchase_background">#4CAF50</color>
+    <color name="swipe_delete_background">#F44336</color>
+</resources>

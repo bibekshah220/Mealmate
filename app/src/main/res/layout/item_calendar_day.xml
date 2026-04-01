@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="80dp"
+    android:layout_height="110dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="2dp"
+    android:layout_margin="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/day_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="4dp"
+            android:textSize="12sp"
+            android:textColor="@color/colorPrimaryDark"
+            tools:text="MON" />
+
+        <TextView
+            android:id="@+id/day_number"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="2dp"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+            android:background="@drawable/circle_background"
+            tools:text="15" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <View
+                android:id="@+id/breakfast_indicator"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_margin="2dp"
+                android:background="@drawable/meal_indicator_breakfast"
+                android:visibility="gone"
+                tools:visibility="visible" />
+
+            <View
+                android:id="@+id/lunch_indicator"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_margin="2dp"
+                android:background="@drawable/meal_indicator_lunch"
+                android:visibility="gone"
+                tools:visibility="visible" />
+
+            <View
+                android:id="@+id/dinner_indicator"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_margin="2dp"
+                android:background="@drawable/meal_indicator_dinner"
+                android:visibility="gone"
+                tools:visibility="visible" />
+
+            <View
+                android:id="@+id/snacks_indicator"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_margin="2dp"
+                android:background="@drawable/meal_indicator_snacks"
+                android:visibility="gone"
+                tools:visibility="visible" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/today_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/today"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:visibility="gone"
+            tools:visibility="visible"
+            tools:ignore="SmallSp" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView> 
